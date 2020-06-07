@@ -1,0 +1,40 @@
+  .navbar{
+    background: transparent;
+  }
+
+  #logo {
+      width: 20%;
+      height: 20%;
+  }
+  
+  .header {
+    background-image: url('../../assets/cdmx-store.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+ .demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: thistle;
+}
